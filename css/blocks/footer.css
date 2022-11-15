@@ -1,0 +1,59 @@
+
+.footer {
+    display: grid;
+    grid-template-areas:
+            'mes'
+            'network'
+            'soc';
+    padding-top: 30px;
+    margin: 0;
+}
+
+.mes {
+    grid-area: mes;
+    display: flex;
+    margin: 0;
+    padding-left: 30px;
+}
+.vib {
+    grid-area: vib;
+    margin: 0 10px
+}
+.faceT {
+    grid-area: faceT;
+    margin: 0 10px
+}
+.wa {
+    grid-area: wa;
+    margin: 0 10px
+}
+
+.network {
+    margin: 0;
+    color: #3e5768;
+    font-family: roboto-webfont;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.soc {
+    display: grid;
+    display: flex;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.fb {
+    grid-area: fb;
+    margin: 0 20px
+}
+
+.vk {
+    grid-area: vk;
+    margin: 0 20px
+}
+
+.inst {
+    grid-area: inst;
+    margin: 0 20px
+}

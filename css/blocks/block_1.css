@@ -1,0 +1,54 @@
+
+
+    .block_1 {
+
+        display: grid;
+        grid-gap: 10px;
+
+        grid-template-areas: 'a1' 'a2' 'a3';
+    }
+
+    .a1 {
+        grid-area: a1;
+        padding-top: 2px;
+    }
+
+    .a1 img {
+        width: 320px;
+        height: 400px;
+    }
+    .a2  {
+        grid-area: a2;
+        width: 100%;
+
+    }
+    .a2 h1 {
+        font-family: roboto-webfont;
+        font-size: 23px;
+    }
+
+    .a2 h3 {
+        font-family: roboto-webfont;
+        color: #1f252d;
+        font-size: 19px;
+    }
+
+    .a3 {
+        width: 100%;
+        grid-area: a3;
+
+        color: white;
+        background-color: #3e5768;
+        font-family: "Harlow Solid Italic";
+        padding-top: 40px;
+        padding-bottom: 30px;
+
+    }
+
+    .a3 h1 {
+        font-size: 15px;
+        margin-left: 5px;
+        font-family: roboto-webfont;
+    }
+
+

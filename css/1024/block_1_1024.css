@@ -1,0 +1,65 @@
+
+
+@media screen and (min-width: 1024px) {
+    .block_1 {
+
+        display: grid;
+        grid-template-areas:
+                'a1 a2'
+                'a3 a3'
+    }
+    .a1 {
+        grid-area: a1;
+    }
+    .a1 img{
+        width: 400px;
+        height: 500px;
+        margin:0;
+    }
+    .a2  {
+        grid-area: a2;
+        width: 100%;
+        margin: 0;
+        padding-top: 100px;
+    }
+    .a2 h1 {
+        font-family: roboto-webfont;
+        font-size: 35px;
+    }
+    .a2 h3 {
+        font-family: roboto-webfont;
+        color: #1f252d;
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    .a2 blockquote {
+        margin: 0;
+    }
+
+    .a3 {
+        width: 1020px;
+        width: 100%;
+        grid-area: a3;
+        color: white;
+        background-color: #3e5768;
+        font-family: "Harlow Solid Italic";
+
+    }
+    .a3 h1 {
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: roboto-webfont;
+    }
+    .a3 blockquote {
+        font-size: 20px;
+        font-family: roboto-webfont;
+    }
+    .mission ol{
+        margin-left: 50px;
+        font-size: 20px;
+        margin-left: 10px;
+        font-family: roboto-webfont;
+    }
+}
+

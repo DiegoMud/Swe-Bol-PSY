@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Italic;
+    src: url("../fonts/Italic.woff"),
+    url("../fonts/Italic.woff2");
+    font-weight: 800;
+
+}
+
+
+@font-face {
+    font-family: droidsans-bold;
+    src: url("../fonts/droidsans-bold-webfont.woff"),
+    url("../fonts/droidsans-bold-webfont.woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto_slab;
+    src: url("../fonts/roboto_slab-webfont.woff"),
+    url("../fonts/roboto_slab-webfont.woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url("../fonts/roboto-black-webfont.woff"),
+    url("../fonts/roboto-black-webfont.woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url("../fonts/roboto-light-webfont.woff"),
+    url("../fonts/roboto-light-webfont.woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url("../fonts/roboto-medium-webfont.woff"),
+    url("../fonts/roboto-medium-webfont.woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto-webfont;
+    src: url("../fonts/roboto-webfont.woff"),
+    url("../fonts/roboto-webfont.woff2");
+    font-weight: 800;
+    font-style: normal;
+}

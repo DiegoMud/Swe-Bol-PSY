@@ -1,0 +1,77 @@
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .contacts {
+        display: grid;
+        grid-template-areas:
+                'd1 d1'
+                'd2 d3';
+        background-color: #e6dcda;
+    }
+
+    .d1 {
+        grid-area: d1;
+        font-family: roboto-webfont;
+        font-size: 130%;
+        margin-left: 120px;
+        margin-top: 80px;
+        margin-bottom: 5px;
+        color: #4b3b39;
+        text-align: left;
+    }
+
+    .d2 {
+        grid-area: d2;
+        text-align: left;
+        margin-left: 110px;
+    }
+
+    .d2 ol {
+
+        color: #3e5768;
+        font-family: roboto-webfont;
+        font-size: 130%;
+        margin: 10px;
+        margin-top: 40px;
+    }
+
+    .d2 p {
+
+        color: #090e13;
+        font-family: roboto-webfont;
+        font-size: 160%;
+        margin-left: 50px;
+
+    }
+
+    .d3 {
+        grid-area: d3;
+
+    }
+
+    .d3 ol {
+        color: #3e5768;
+        font-family: roboto-webfont;
+        font-size: 130%;
+        padding: 0;
+        margin: 10px;
+        margin-right: 30px;
+        margin-top: 40px;
+
+    }
+
+    .d3 p {
+
+        color: #090e13;
+        font-family: roboto-webfont;
+        font-size: 160%;
+        margin: 10px;
+        margin-right: 30px;
+        margin-top: 20px;
+
+
+    }
+}

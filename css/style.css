@@ -1,0 +1,38 @@
+@import url("fonts.css");
+@import url("core.css");
+@import url("blocks/header.css");
+@import url("blocks/block_1.css");
+@import url("blocks/block_2.css");
+@import url("blocks/block_3.css");
+@import url("blocks/contacts.css");
+@import url("blocks/footer.css");
+/* 640 */
+@import url("640/block_1_640.css");
+@import url("640/block_2_640.css");
+@import url("640/block_3_640.css");
+@import url("640/contacts_640.css");
+@import url("640/footer_640.css");
+/* 768 */
+@import url("768/block_1_768.css");
+@import url("768/block_2_768.css");
+@import url("768/block_3_768.css");
+@import url("768/contacts_768.css");
+@import url("768/footer_768.css");
+/* 1024 */
+@import url("1024/block_1_1024.css");
+@import url("1024/block_2_1024.css");
+@import url("1024/block_3_1024.css");
+@import url("1024/contacts_1024.css");
+@import url("1024/footer_1024.css");
+/* 1366 */
+@import url("1366/block_1_1366.css");
+@import url("1366/block_2_1366.css");
+@import url("1366/block_3_1366.css");
+@import url("1366/contacts_1366.css");
+@import url("1366/footer_1366.css");
+/* 1920 */
+@import url("1920/block_1_1920.css");
+@import url("1920/block_2_1920.css");
+@import url("1920/block_3_1920.css");
+@import url("1920/contacts_1920.css");
+@import url("1920/footer_1920.css");

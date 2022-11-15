@@ -1,0 +1,70 @@
+
+
+
+
+@media screen and (min-width: 1366px) {
+
+    .footer{
+        display: grid;
+        grid-template-areas:
+
+                'mes'
+                'network'
+                'soc'   ;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 150px;
+
+    }
+
+    .mes {
+        grid-area: mes;
+        display: flex;
+        margin: 0;
+        padding-left: 450px;
+    }
+    .vib {
+        grid-area: vib;
+        margin: 0 40px
+    }
+    .faceT {
+        grid-area: faceT;
+        margin: 0 40px
+    }
+    .wa {
+        grid-area: wa;
+        margin: 0 40px
+    }
+
+    .network  {
+        grid-area: network;
+        padding-top: 60px;
+        color: #3e5768;
+        font-family: roboto-webfont;
+        font-size: 30px;
+        margin: 0;
+        padding-left: 470px;
+    }
+
+    .soc {
+        display: grid;
+        display: flex;
+        padding-top: 20px;
+        margin-bottom: 50px;
+        margin: 0;
+        padding-left: 440px;
+    }
+    .fb {
+        grid-area: fb;
+        margin: 0 50px
+    }
+    .vk {
+        grid-area: vk;
+        margin: 0 50px
+    }
+    .inst {
+        grid-area: inst;
+        margin: 0 50px
+    }
+
+}
